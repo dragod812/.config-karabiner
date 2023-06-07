@@ -951,7 +951,7 @@
             ]
           },
           {
-            "description": "Change quote to option if pressed with other keys (Post quote when pressed alone)",
+            "description": "Change quote to ctrl if pressed with other keys (Post quote when pressed alone)",
             "manipulators": [
               {
                 "from": {
@@ -964,7 +964,7 @@
                 },
                 "to": [
                   {
-                    "key_code": "left_option"
+                    "key_code": "left_control"
                   }
                 ],
                 "to_if_alone": [
